@@ -1,0 +1,76 @@
+/* Estilo geral da página */
+body {
+  font-family: Papyrus, sans-serif;
+  margin: 30px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Título principal */
+h1 {
+  color: #9affb8;
+  margin-bottom: 30px;
+  max-width: 300000000000px;
+}
+
+/* Lista de usuários */
+#user-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 3000px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+/* Itens da lista */
+#user-list li {
+  padding: 30px 50px;
+  border-bottom: 20px solid #ff0000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Último item sem borda inferior */
+#user-list li:last-child {
+  border-bottom: none;
+}
+
+/* Efeito hover nos itens */
+#user-list li:hover {
+  background-color: #2c445e;
+}
+
+/* Área de detalhes do usuário */
+#user-details {
+  margin-top: 30px;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid #ccc;
+}
+
+/* Título dos detalhes */
+#user-details h2 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+/* Parágrafos dos detalhes */
+#user-details p {
+  line-height: 1.5;
+  margin: 8px 0;
+}
+
+/* Link do website */
+#user-details a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+#user-details a:hover {
+  text-decoration: underline;
+}
